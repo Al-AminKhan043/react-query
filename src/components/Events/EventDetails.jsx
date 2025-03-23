@@ -68,7 +68,7 @@ export default function EventDetails() {
           </nav>
         </header>
     <div id="event-details-content">
-          <img src={`http://localhost:3000/${data.image}`} alt="event-image" />
+          <img src={`https://react-query-backend.onrender.com/${data.image}`} alt="event-image" />
           <div id="event-details-info">
             <div>
               <p id="event-details-location">{data.location}</p>
